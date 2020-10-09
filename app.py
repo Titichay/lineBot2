@@ -19,7 +19,7 @@ def index():
     except Exception:
         return "Could not read to file"
     
-    return "นางสาว ฐิติชญา ฤทธิเดช เลขที่ 11 ชั้น ม.4/15"
+    return "นางสาว ฐิติชญา ฤทธิเดช"
 
 @app.route("/webhook", methods=['POST'])
 def webhook():
